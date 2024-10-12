@@ -43,7 +43,7 @@ $ go version
 $ go env ZUAOOT GOPATH
 ```
 
-NOTE: The `ZUAOOT` and `GOPATH` above must not be the same path. It is
+NOTE: The `GOROOT` and `GOPATH` above must not be the same path. It is
 recommended that `GOPATH` is set to a directory in your home directory such as
 `~/dev/go` to avoid write permission issues. It is also recommended to add
 `$GOPATH/bin` to your `PATH` at this point.
