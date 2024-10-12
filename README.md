@@ -4,7 +4,7 @@ This project is currently under active development and is in Beta state.
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/zuadanet/dnsseeder)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/zuanet/dnsseeder)
 
 DNSSeeder exposes a list of known peers to any new peer joining the Zuad network via the DNS protocol.
 
