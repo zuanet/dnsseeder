@@ -51,8 +51,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain dnsseeder, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/zuadanet/dnsseeder $GOPATH/src/github.com/zuadanet/dnsseeder
-$ cd $GOPATH/src/github.com/zuadanet/dnsseeder
+$ git clone https://github.com/zuanet/dnsseeder $GOPATH/src/github.com/zuadanet/dnsseeder
+$ cd $GOPATH/src/github.com/zuanet/dnsseeder
 $ go install . 
 ```
 
