@@ -14,7 +14,7 @@ import (
 
 	"github.com/zuanet/zuad/infrastructure/config"
 
-	"github.com/zuadanet/dnsseeder/version"
+	"github.com/zuanet/dnsseeder/version"
 	"github.com/pkg/errors"
 
 	"github.com/jessevdk/go-flags"
