@@ -1,9 +1,9 @@
 # -- multistage docker build: stage #1: build stage
 FROM golang:1.18-alpine AS build
 
-RUN mkdir -p /go/src/github.com/zuadanet/dnsseeder
+RUN mkdir -p /go/src/github.com/zuanet/dnsseeder
 
-WORKDIR /go/src/github.com/zuadanet/dnsseeder
+WORKDIR /go/src/github.com/zuanet/dnsseeder
 
 RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 
