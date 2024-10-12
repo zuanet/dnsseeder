@@ -40,7 +40,7 @@ Latest version of [Go](http://golang.org) (currently 1.17)
 
 ```bash
 $ go version
-$ go env ZUAOOT GOPATH
+$ go env GOROOT GOPATH
 ```
 
 NOTE: The `GOROOT` and `GOPATH` above must not be the same path. It is
