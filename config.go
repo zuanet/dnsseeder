@@ -18,7 +18,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/zuadanet/zua/util"
+	"github.com/zuanet/zua/util"
 )
 
 const (
