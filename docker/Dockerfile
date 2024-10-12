@@ -10,7 +10,7 @@ RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 COPY go.mod .
 COPY go.sum .
 
-# For development it's useful to have zuadanet from filesystem, but for deployment
+# For development it's useful to have zuanet from filesystem, but for deployment
 # we should use the one in github
 RUN go mod edit -dropreplace github.com/kaspanet/kaspad
 ARG ZUAD_VERSION
