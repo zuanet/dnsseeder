@@ -41,7 +41,7 @@ WORKDIR /app
 
 RUN apk add --no-cache tini
 
-COPY --from=build /go/src/github.com/zuadanet/dnsseeder/ /app/
+COPY --from=build /go/src/github.com/zuanet/dnsseeder/ /app/
 
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/app/dnsseeder"]
