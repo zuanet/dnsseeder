@@ -1,4 +1,4 @@
-module github.com/zuadanet/dnsseeder
+module github.com/zuanet/dnsseeder
 
 go 1.18
 
