@@ -56,7 +56,7 @@ $ cd $GOPATH/src/github.com/zuanet/dnsseeder
 $ go install . 
 ```
 
-- dnsseeder will now be installed in either ```$ZUAOOT/bin``` or
+- dnsseeder will now be installed in either ```$GOROOT/bin``` or
   ```$GOPATH/bin``` depending on your configuration. If you did not already
   add the bin directory to your system path during Go installation, we
   recommend you do so now.
