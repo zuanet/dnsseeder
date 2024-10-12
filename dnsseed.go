@@ -16,12 +16,12 @@ import (
 
 	"github.com/zuanet/zuad/app/protocol/common"
 	"github.com/zuanet/zuad/infrastructure/config"
-	"github.com/zuanet/zuad/structure/network/netadapter/standalone"
+	"github.com/zuanet/zuad/infrastructure/network/netadapter/standalone"
 
 	"github.com/pkg/errors"
 
-	"github.com/zuadanet/dnsseeder/version"
-	"github.com/zuadanet/infrastructure/network/dnsseed"
+	"github.com/zuanet/dnsseeder/version"
+	"github.com/zuanet/infrastructure/network/dnsseed"
 	"github.com/zuanet/zuad/util/panics"
 	"github.com/zuanet/zuad/util/profiling"
 
