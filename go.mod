@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/jessevdk/go-flags v1.4.0
-	github.com/zuanet/zuad v0.0.0
+	github.com/zuanet/zuad v0.0.0-20241005041153-1e73d6d4d564
 	github.com/miekg/dns v1.1.25
 	github.com/pkg/errors v0.9.1
 	google.golang.org/grpc v1.53.0
